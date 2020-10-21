@@ -29,7 +29,7 @@ public class Main {
     private static void reverseArray(ArrayList<String> animals) {
         ArrayList<String> reverseAnimals = new ArrayList<String>();
         try {
-            for (int count = animals.size(); count < animals.size(); count--){
+            for (int count = animals.size() - 1; count > 0; count--){
                 reverseAnimals.add(animals.get(count));
             }
         }
